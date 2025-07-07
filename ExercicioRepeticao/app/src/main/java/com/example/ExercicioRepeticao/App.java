@@ -10,7 +10,7 @@ public class App {
        
        while(desejaContinuar == 'S' || desejaContinuar == 's' ) {
            
-           System.out.println("Digite um numero");
+           System.out.println("Digite um número");
            int numero = leitorScanner.nextInt();
            
            if(numero == 0) {
