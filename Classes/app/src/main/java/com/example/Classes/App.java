@@ -12,10 +12,10 @@ public class App {
         Scanner leitor = new Scanner(System.in);
         
         System.out.println("Digite o peso: ");
-        objetoPessoa.peso = leitor.nextFloat();
+        objetoPessoa.setPeso (leitor.nextFloat());
         
         System.out.println("Digite a altura: ");
-        objetoPessoa.altura = leitor.nextFloat();
+        objetoPessoa.setAltura(leitor.nextFloat());
         
         System.out.println("IMC: " + objetoPessoa.calcularIMC());
           
